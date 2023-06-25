@@ -1,11 +1,6 @@
-# discord bot pycon2023
+# 👾 PyCon 2023 | Discord Bot 
 
-# Exercise 1
+![Python version](https://img.shields.io/badge/python-v3.10-blue)
 
-## Goal
-### Create a function to send message to the discord server when bot is active
-*Optional: Make your bot sending the message in the selected channel instead of default/general channel*
+This repository created for workshop conducted during PyCon PL 2023
 
-1. Make sure you are completed the environment setup with using `start` branch
-2. Go to `src/exercise-1.py` and create your function
-3. Run your function
