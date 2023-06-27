@@ -45,3 +45,17 @@ class GammerCogs(commands.Cog):
         select.callback = select_callback
         view.add_item(select)
         await ctx.send(f"Select your games", view=view)
+
+
+    @discord.app_commands.command(name="game", description="Select game")
+    async def game(self, interaction: discord.Interaction):
+        ctx: commands.Context = await self.bot.get_context(interaction)
+        view = discord.ui.View()
+        buttons = [discord.ui.Button(label=game) for game in self.games]
+        async def callback(interaction: discord.Interaction):
+            # how to get value from button ?
+            await interaction.response.send_message()
+        for button in buttons:
+            button.callback = callback
+            view.add_item(button)
+        await ctx.send(f"Select your games", view=view)
