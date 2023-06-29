@@ -4,3 +4,4 @@
 
 This repository created for workshop conducted during PyCon PL 2023
 
+Link to the documentation: https://sinem-ay.notion.site/PYCON-2023-End-to-end-Discord-Bot-Development-abf02a04111445eb8f27c039039ad71f?pvs=4
